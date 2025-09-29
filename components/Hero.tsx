@@ -66,7 +66,7 @@ export default function Hero() {
         className="mx-auto mb-10 w-[400px] md:w-[500px] rounded-2xl shadow-xl object-cover"
       />
 
-      <p className="title0 relative text-5xl md:text-7xl font-extrabold tracking-tight text-center bg-gradient-to-r from-blue-500 via-purple-900 to-pink-600 bg-clip-text text-transparent">
+      <p className="title0 text-orange-500 text-5xl md:text-7xl font-extrabold tracking-tight text-center ">
         SUPER HANDBAG
       </p>
 
@@ -89,7 +89,7 @@ export default function Hero() {
         <div className="content text-center space-y-6">
           {/* 桌面端显示 */}
           <div className="space-y-5 ">
-            <p className="subtitle text-2xl md:text-4xl font-semibold leading-snug bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 bg-clip-text text-transparent mt-5">
+            <p className="subtitle text-2xl md:text-4xl font-semibold leading-snug text-orange-400 mt-5">
               Carry Your Style Everywhere
             </p>
             <p className="subtitle text-lg md:text-xl font-medium tracking-wide text-gray-600 hidden md:block">

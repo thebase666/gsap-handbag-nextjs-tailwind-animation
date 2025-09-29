@@ -39,10 +39,7 @@ function AnimatedCounter() {
     <section id="counter" ref={counterRef} className="relative py-16 sm:py-28 ">
       <div className="container mx-auto px-4 sm:px-6">
         {/* 标题 */}
-        <h2
-          className="text-2xl sm:text-4xl md:text-5xl font-bold text-center mb-10 sm:mb-14 
-          bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 bg-clip-text text-transparent"
-        >
+        <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-center mb-10 sm:mb-14 text-green-500">
           Our Achievements
         </h2>
 
@@ -57,7 +54,7 @@ function AnimatedCounter() {
             >
               <div
                 className="counter-number text-3xl sm:text-5xl font-extrabold mb-2 sm:mb-3 
-                bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent"
+                text-blue-600"
               >
                 {/* 初始0 动画覆盖掉0 */}0{item.suffix}
               </div>

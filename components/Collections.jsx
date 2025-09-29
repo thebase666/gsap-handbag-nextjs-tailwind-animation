@@ -80,7 +80,7 @@ function Collections() {
 
         {/* 文字内容 */}
         <div className="space-y-6 text-center md:text-left">
-          <p className="name text-2xl md:text-4xl font-extrabold mt-2  bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 bg-clip-text text-transparent">
+          <p className="name text-2xl md:text-4xl font-extrabold mt-2  text-pink-600">
             {currentBag.name}
           </p>
 

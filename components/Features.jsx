@@ -45,7 +45,7 @@ function Features() {
   return (
     <section id="features" className="relative py-12 sm:py-20 overflow-hidden">
       <div className=" mx-auto px-4 sm:px-6 flex flex-col items-center ">
-        <p className="title1 bg-gradient-to-r text-3xl md:text-5xl font-extrabold tracking-tight text-center from-blue-500 via-purple-900 to-pink-600  bg-clip-text text-transparent mb-10">
+        <p className="title1 text-3xl md:text-5xl font-extrabold tracking-tight text-center text-pink-600 mb-10">
           Explore The Story
         </p>
 

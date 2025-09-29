@@ -40,7 +40,7 @@ function BestSeller() {
     <section id="best-seller" className="relative py-12 sm:py-32  pt-20">
       <div className=" mx-auto px-4 sm:px-6">
         {/* 标题 */}
-        <h2 className="will-fade text-center text-3xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+        <h2 className="will-fade text-center text-3xl sm:text-5xl font-bold mb-6 text-pink-500">
           Best Seller
         </h2>
 
@@ -57,7 +57,7 @@ function BestSeller() {
 
         {/* 遮罩内容 */}
         <div className="mt-6 sm:mt-10 text-center px-4">
-          <h2 className="will-fade text-xl sm:text-4xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+          <h2 className="will-fade text-xl sm:text-4xl font-bold mb-4 sm:mb-6 text-purple-500">
             Signature Elegance
           </h2>
           <div className="masked-content opacity-0  max-w-xl mx-auto hidden md:block">

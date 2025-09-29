@@ -51,11 +51,7 @@ function About() {
             <p className="inline-block px-3 py-1 text-xs sm:text-sm font-medium rounded-full bg-blue-100 text-blue-700 tracking-wide">
               Handcrafted Elegance
             </p>
-            <h2
-              className="text-2xl sm:text-3xl md:text-5xl font-bold leading-snug tracking-tight 
-                           bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 
-                           bg-clip-text text-transparent"
-            >
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold leading-snug tracking-tight text-blue-500">
               Where every stitch matters{" "}
               <span className="text-gray-400">-</span> from design to detail
             </h2>

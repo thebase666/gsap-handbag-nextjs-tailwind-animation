@@ -29,7 +29,7 @@ function Contact() {
     >
       {/* 标题 */}
       <div className="text-center mb-8 sm:mb-12">
-        <h2 className="text-2xl sm:text-5xl font-bold tracking-tight bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+        <h2 className="text-2xl sm:text-5xl font-bold tracking-tight text-blue-600">
           Get in Touch
         </h2>
       </div>
