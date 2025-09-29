@@ -61,14 +61,11 @@ export default function Hero() {
         className="mx-auto mb-10 w-[400px] md:w-[500px] rounded-2xl shadow-xl object-cover"
       />
 
-      {/* 主标题 */}
       <p
         id="title"
-        className="title relative text-5xl md:text-7xl font-extrabold tracking-tight text-center"
+        className="title relative text-5xl md:text-7xl font-extrabold tracking-tight text-center bg-gradient-to-r from-blue-500 via-purple-900 to-pink-600 bg-clip-text text-transparent"
       >
-        <span className="bg-gradient-to-r from-blue-500 via-purple-900 to-pink-600  bg-clip-text text-transparent text-2xl md:text-4xl">
-          SUPER HANDBAG
-        </span>
+        SUPER HANDBAG
         <Sparkles className="absolute -top-6 -right-8 w-8 h-8 text-yellow-600 animate-pulse" />
       </p>
 
