@@ -1,19 +1,24 @@
 "use client";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { SplitText } from "gsap/all";
 import { ArrowRight, Sparkles, Star } from "lucide-react";
+import { SplitText } from "gsap/SplitText";
+
+gsap.registerPlugin(SplitText);
 
 export default function Hero() {
   useGSAP(() => {
     // 标题拆分动画
-    const heroSplit = new SplitText(".title", { type: "chars, words" });
+    const heroSplit = new SplitText(".title0", {
+      type: "chars, words",
+    });
+
     gsap.from(heroSplit.chars, {
       opacity: 0,
       yPercent: 100,
-      duration: 1.3,
+      duration: 1.8,
       ease: "expo.out",
-      stagger: 0.1,
+      stagger: 0.06,
     });
 
     // 副标题动画
@@ -61,12 +66,8 @@ export default function Hero() {
         className="mx-auto mb-10 w-[400px] md:w-[500px] rounded-2xl shadow-xl object-cover"
       />
 
-      <p
-        id="title"
-        className="title relative text-5xl md:text-7xl font-extrabold tracking-tight text-center bg-gradient-to-r from-blue-500 via-purple-900 to-pink-600 bg-clip-text text-transparent"
-      >
+      <p className="title0 relative text-5xl md:text-7xl font-extrabold tracking-tight text-center bg-gradient-to-r from-blue-500 via-purple-900 to-pink-600 bg-clip-text text-transparent">
         SUPER HANDBAG
-        <Sparkles className="absolute -top-6 -right-8 w-8 h-8 text-yellow-600 animate-pulse" />
       </p>
 
       {/* 装饰 icon */}
@@ -88,7 +89,7 @@ export default function Hero() {
         <div className="content text-center space-y-6">
           {/* 桌面端显示 */}
           <div className="space-y-5 ">
-            <p className="subtitle text-2xl md:text-4xl font-semibold leading-snug bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 bg-clip-text text-transparent">
+            <p className="subtitle text-2xl md:text-4xl font-semibold leading-snug bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 bg-clip-text text-transparent mt-5">
               Carry Your Style Everywhere
             </p>
             <p className="subtitle text-lg md:text-xl font-medium tracking-wide text-gray-600 hidden md:block">
